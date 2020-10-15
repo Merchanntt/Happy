@@ -1,0 +1,84 @@
+#landing-page {
+  width: 100vw;
+  height: 100vh;
+
+  background: linear-gradient(329.54deg, #29B6D1 0%, #00C7C7 100%);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#landing-page .content-wrapper {
+  position: relative;
+
+  width: 100%;
+  max-width: 1000px;
+
+  height: 100%;
+  max-height: 500px;
+
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  flex-direction: column;
+
+  background: url('../../assets/images/Ilustra02.svg') no-repeat 80% center;
+  background-size: 410px;
+}
+
+#landing-page .content-wrapper main {
+  max-width: 350px;
+}
+
+#landing-page .content-wrapper main h1{
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 60px;
+}
+
+#landing-page .content-wrapper main p {
+  margin-top: 40px;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.content-wrapper .location {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  font-size: 20px;
+  line-height: 34px;
+
+  display: flex;
+  flex-direction: column;
+
+  text-align: right;
+}
+
+.content-wrapper .location strong {
+  font-weight: 800;
+}
+
+
+.content-wrapper .enter-app {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+
+  width: 68px;
+  height: 68px;
+  background-color: #ffd666;
+  border-radius: 16px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  transition: background-color 0.3s;
+}
+
+.content-wrapper .enter-app:hover {
+  background-color: #96feff;
+}
