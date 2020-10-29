@@ -12,7 +12,7 @@
 ![node-current](https://img.shields.io/node/v/package)
 ![GitHub last commit](https://img.shields.io/github/last-commit/Merchanntt/Happy)
 
-Builded in React, React-Native, expo, node and Typescript, this application wants to connect you to intruction institutions on your neighborhood.
+Builded in React, React-Native, expo, node and Typescript, this application wants to connect you to institutional receptions on your neighborhood.
 
 </div>
 
