@@ -41,9 +41,8 @@ const OrphanagesMap: React.FC = () => {
           <span>Paraná</span>
         </footer>
       </aside>
-
       <GoogleMapReact 
-        bootstrapURLKeys={{key: 'AIzaSyBB0Ynr7aF1r8YoU16y3g5K0v_8LQp4BbU'}}
+        bootstrapURLKeys={{key: ''}}
         defaultZoom={14}
         defaultCenter={{
           lat: -25.5324122,
@@ -60,7 +59,6 @@ const OrphanagesMap: React.FC = () => {
           />
         ))}
       </GoogleMapReact>
-
       <Link to="/orphanages/create" className="create-orphanage">
         <FiPlus size={22} color="#fff"/>
       </Link>

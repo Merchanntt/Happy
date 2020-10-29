@@ -5,8 +5,8 @@ import { Link } from 'react-router-dom';
 import MarkerPin from '../assets/images/map-marker.svg'
 
 interface MarkerProps {
-  id: number;
-  name: string;
+  id?: number;
+  name?: string;
   lat: number;
   lng: number;
 }

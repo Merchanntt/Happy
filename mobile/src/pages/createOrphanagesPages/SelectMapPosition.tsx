@@ -22,8 +22,6 @@ export default function SelectMapPosition() {
 
   const {latitude, longitude} = location
 
-  console.log(latitude, longitude)
-
   const [position, setPosition] = useState({latitude: 0, longitude: 0})
 
   const handleSetPositionInMap = useCallback((event: MapEvent) => {
